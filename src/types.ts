@@ -386,8 +386,7 @@ export type ActionSheetProps<SheetId extends keyof Sheets = never> = {
   enableGesturesInScrollView?: boolean;
 
   onSnapIndexChange?: (index: number) => void;
-
-  onTouchBackdrop?: (event: GestureResponderEvent) => void;
+  
 
   /**
    * When `closable=false`, set this to true to not allow

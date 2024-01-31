@@ -1125,7 +1125,7 @@ export default forwardRef<ActionSheetRef, ActionSheetProps>(
     ]);
 
     const onTouch = (event: GestureResponderEvent) => {
-      props.onTouchBackdrop?.(event);
+      //props.onTouchBackdrop?.(event);
       onTouchBackdrop?.(event);
       if (enableRouterBackNavigation && router.canGoBack()) {
         router.goBack();
